@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/https_verification_success.cpp" "certify/tests/CMakeFiles/https_verification_success.dir/https_verification_success.cpp.o" "gcc" "certify/tests/CMakeFiles/https_verification_success.dir/https_verification_success.cpp.o.d"
+  "/home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/https_verification_success.cpp" "certify/tests/CMakeFiles/https_verification_success.dir/https_verification_success.cpp.o" "gcc" "certify/tests/CMakeFiles/https_verification_success.dir/https_verification_success.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -4,8 +4,8 @@
 
 
 # Configuration directories and files
-SourceDirectory: /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify
-BuildDirectory: /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify
+SourceDirectory: /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify
+BuildDirectory: /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify
 
 # Where to place the cost data store
 CostDataFile: 
@@ -26,7 +26,7 @@ SubmitURL: http://
 NightlyStartTime: 00:00:00 EDT
 
 # Commands for the build/test/submit cycle
-ConfigureCommand: "/usr/bin/cmake" "/home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify"
+ConfigureCommand: "/usr/bin/cmake" "/home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify"
 MakeCommand: /usr/bin/cmake --build . --config "${CTEST_CONFIGURATION_TYPE}"
 DefaultCTestConfigurationType: Release
 

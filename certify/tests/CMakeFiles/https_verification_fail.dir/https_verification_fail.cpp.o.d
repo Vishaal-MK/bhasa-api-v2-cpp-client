@@ -1,8 +1,8 @@
 certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o: \
- /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/https_verification_fail.cpp \
+ /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/https_verification_fail.cpp \
  /usr/include/stdc-predef.h \
- /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/../include/boost/certify/https_verification.hpp \
- /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/../include/boost/certify/detail/config.hpp \
+ /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/../include/boost/certify/https_verification.hpp \
+ /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/../include/boost/certify/detail/config.hpp \
  /usr/local/include/boost/asio/ssl/stream.hpp \
  /usr/local/include/boost/asio/detail/config.hpp \
  /usr/local/include/boost/config.hpp \
@@ -913,9 +913,9 @@ certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp
  /usr/local/include/boost/io/detail/buffer_fill.hpp \
  /usr/local/include/boost/io/detail/ostream_guard.hpp \
  /usr/local/include/boost/utility/string_view_fwd.hpp \
- /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/../include/boost/certify/detail/keystore_default.ipp \
- /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/../include/boost/certify/impl/https_verification.hpp \
- /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/../include/boost/certify/impl/https_verification.ipp \
+ /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/../include/boost/certify/detail/keystore_default.ipp \
+ /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/../include/boost/certify/impl/https_verification.hpp \
+ /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/../include/boost/certify/impl/https_verification.ipp \
  /usr/local/include/boost/asio/ip/address.hpp \
  /usr/local/include/boost/asio/ip/address_v4.hpp \
  /usr/local/include/boost/asio/detail/array.hpp \
@@ -928,7 +928,7 @@ certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp
  /usr/local/include/boost/asio/ip/bad_address_cast.hpp \
  /usr/local/include/boost/asio/ip/impl/address.hpp \
  /usr/local/include/boost/asio/ip/impl/address.ipp \
- /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/../tests/extras/include/boost/certify/verification_utils.hpp \
+ /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/../tests/extras/include/boost/certify/verification_utils.hpp \
  /usr/local/include/boost/filesystem/operations.hpp \
  /usr/local/include/boost/filesystem/config.hpp \
  /usr/local/include/boost/filesystem/path.hpp \

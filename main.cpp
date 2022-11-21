@@ -28,8 +28,8 @@ int r;
 static int x = 0;
 static void usage(const std::string &fn)
 {
-    std::cout  << " voice.wav "
-              << " <ip_address>" << std::endl;
+    std::cout << " <path/to/local_audio_file> "
+              << "<api_key> " << std::endl;
     exit(0);
 }
 
@@ -41,29 +41,25 @@ int main(const int argc, const char *argv[])
     using json = nlohmann::json;
     if (argc < 3)
         usage(argv[0]);
-    // const static std::string bhasaEndpoint = "wss://transcribe-api.bhasa.io/ws/listen";
-
-    // parsed original "endpoint", as connection is couple-steps things
 
     // 1. we need to resolve IP
-    const static std::string ws_host = argv[2];
+    const static std::string ws_host = "216.48.191.199";
     // 2. we need to setup path ("endpoint")
     const static std::string ws_path = "/ws/listen";
     // 3. we use port during IP resolve too, default is 80 or 443 for SSL in browsers
     const static std::string ws_port = "8000";
     // 4. and last but not least we will indicate SSL by using SSL stream objects below ("wss:/" part)
 
-    //{"api_key":"<APIKEY>","event":"config","format":"LINEAR16","language":"en-US","rate":"audio_context.sampleRate"}
     const static json initer =
         {
-
-            {"language", {"en-us", "en-uk"}},
-            {"format", "LINEAR-PCM"},
-            {"api_key", "a1b2c33d4e5f6g7h8i9jakblc"},
+            {"event", "config"},
+            {"language", "en-US"},
+            {"format", "LINEAR_PCM"}, //LINEAR_PCM or FLAC
+            {"api_key", argv[2]},
             {"profanity", true},
-            {"interim", true},
-            {"word_time_offset", true},
-            {"number_of_streams", 2}};
+            {"interim_output", true},
+            {"timestamp", true},
+        };
 
     // else
     {

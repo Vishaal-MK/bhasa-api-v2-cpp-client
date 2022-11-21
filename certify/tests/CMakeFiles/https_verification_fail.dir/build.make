@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vishaal/Desktop/VSCode/transcribe-client-cpp
+CMAKE_SOURCE_DIR = /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vishaal/Desktop/VSCode/transcribe-client-cpp
+CMAKE_BINARY_DIR = /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client
 
 # Include any dependencies generated for this target.
 include certify/tests/CMakeFiles/https_verification_fail.dir/depend.make
@@ -72,16 +72,16 @@ include certify/tests/CMakeFiles/https_verification_fail.dir/flags.make
 certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o: certify/tests/CMakeFiles/https_verification_fail.dir/flags.make
 certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o: certify/tests/https_verification_fail.cpp
 certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o: certify/tests/CMakeFiles/https_verification_fail.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishaal/Desktop/VSCode/transcribe-client-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o"
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o -MF CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o.d -o CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o -c /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/https_verification_fail.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o"
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o -MF CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o.d -o CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o -c /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/https_verification_fail.cpp
 
 certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.i"
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/https_verification_fail.cpp > CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.i
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/https_verification_fail.cpp > CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.i
 
 certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.s"
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/https_verification_fail.cpp -o CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.s
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/https_verification_fail.cpp -o CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.s
 
 # Object files for target https_verification_fail
 https_verification_fail_OBJECTS = \
@@ -99,18 +99,18 @@ certify/tests/https_verification_fail: /usr/lib/libboost_date_time.so.1.80.0
 certify/tests/https_verification_fail: /usr/local/lib/libssl.so
 certify/tests/https_verification_fail: /usr/local/lib/libcrypto.so
 certify/tests/https_verification_fail: certify/tests/CMakeFiles/https_verification_fail.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vishaal/Desktop/VSCode/transcribe-client-cpp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable https_verification_fail"
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/https_verification_fail.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable https_verification_fail"
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/https_verification_fail.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 certify/tests/CMakeFiles/https_verification_fail.dir/build: certify/tests/https_verification_fail
 .PHONY : certify/tests/CMakeFiles/https_verification_fail.dir/build
 
 certify/tests/CMakeFiles/https_verification_fail.dir/clean:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests && $(CMAKE_COMMAND) -P CMakeFiles/https_verification_fail.dir/cmake_clean.cmake
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests && $(CMAKE_COMMAND) -P CMakeFiles/https_verification_fail.dir/cmake_clean.cmake
 .PHONY : certify/tests/CMakeFiles/https_verification_fail.dir/clean
 
 certify/tests/CMakeFiles/https_verification_fail.dir/depend:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vishaal/Desktop/VSCode/transcribe-client-cpp /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests /home/vishaal/Desktop/VSCode/transcribe-client-cpp /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests/CMakeFiles/https_verification_fail.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests/CMakeFiles/https_verification_fail.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : certify/tests/CMakeFiles/https_verification_fail.dir/depend
 

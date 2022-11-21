@@ -1,4 +1,4 @@
-# Install script for directory: /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests
+# Install script for directory: /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

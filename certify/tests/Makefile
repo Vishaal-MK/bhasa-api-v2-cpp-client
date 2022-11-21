@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/vishaal/Desktop/VSCode/transcribe-client-cpp
+CMAKE_SOURCE_DIR = /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/vishaal/Desktop/VSCode/transcribe-client-cpp
+CMAKE_BINARY_DIR = /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -132,14 +132,14 @@ install/strip/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(CMAKE_COMMAND) -E cmake_progress_start /home/vishaal/Desktop/VSCode/transcribe-client-cpp/CMakeFiles /home/vishaal/Desktop/VSCode/transcribe-client-cpp/certify/tests//CMakeFiles/progress.marks
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishaal/Desktop/VSCode/transcribe-client-cpp/CMakeFiles 0
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(CMAKE_COMMAND) -E cmake_progress_start /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/CMakeFiles /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/certify/tests//CMakeFiles/progress.marks
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/clean
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -148,22 +148,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/preinstall
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/preinstall
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 certify/tests/CMakeFiles/https_verification_success.dir/rule:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/CMakeFiles/https_verification_success.dir/rule
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/CMakeFiles/https_verification_success.dir/rule
 .PHONY : certify/tests/CMakeFiles/https_verification_success.dir/rule
 
 # Convenience name for target.
@@ -172,12 +172,12 @@ https_verification_success: certify/tests/CMakeFiles/https_verification_success.
 
 # fast build rule for target.
 https_verification_success/fast:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_success.dir/build.make certify/tests/CMakeFiles/https_verification_success.dir/build
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_success.dir/build.make certify/tests/CMakeFiles/https_verification_success.dir/build
 .PHONY : https_verification_success/fast
 
 # Convenience name for target.
 certify/tests/CMakeFiles/https_verification_fail.dir/rule:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/CMakeFiles/https_verification_fail.dir/rule
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 certify/tests/CMakeFiles/https_verification_fail.dir/rule
 .PHONY : certify/tests/CMakeFiles/https_verification_fail.dir/rule
 
 # Convenience name for target.
@@ -186,7 +186,7 @@ https_verification_fail: certify/tests/CMakeFiles/https_verification_fail.dir/ru
 
 # fast build rule for target.
 https_verification_fail/fast:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_fail.dir/build.make certify/tests/CMakeFiles/https_verification_fail.dir/build
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_fail.dir/build.make certify/tests/CMakeFiles/https_verification_fail.dir/build
 .PHONY : https_verification_fail/fast
 
 https_verification_fail.o: https_verification_fail.cpp.o
@@ -194,7 +194,7 @@ https_verification_fail.o: https_verification_fail.cpp.o
 
 # target to build an object file
 https_verification_fail.cpp.o:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_fail.dir/build.make certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_fail.dir/build.make certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.o
 .PHONY : https_verification_fail.cpp.o
 
 https_verification_fail.i: https_verification_fail.cpp.i
@@ -202,7 +202,7 @@ https_verification_fail.i: https_verification_fail.cpp.i
 
 # target to preprocess a source file
 https_verification_fail.cpp.i:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_fail.dir/build.make certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.i
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_fail.dir/build.make certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.i
 .PHONY : https_verification_fail.cpp.i
 
 https_verification_fail.s: https_verification_fail.cpp.s
@@ -210,7 +210,7 @@ https_verification_fail.s: https_verification_fail.cpp.s
 
 # target to generate assembly for a file
 https_verification_fail.cpp.s:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_fail.dir/build.make certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.s
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_fail.dir/build.make certify/tests/CMakeFiles/https_verification_fail.dir/https_verification_fail.cpp.s
 .PHONY : https_verification_fail.cpp.s
 
 https_verification_success.o: https_verification_success.cpp.o
@@ -218,7 +218,7 @@ https_verification_success.o: https_verification_success.cpp.o
 
 # target to build an object file
 https_verification_success.cpp.o:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_success.dir/build.make certify/tests/CMakeFiles/https_verification_success.dir/https_verification_success.cpp.o
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_success.dir/build.make certify/tests/CMakeFiles/https_verification_success.dir/https_verification_success.cpp.o
 .PHONY : https_verification_success.cpp.o
 
 https_verification_success.i: https_verification_success.cpp.i
@@ -226,7 +226,7 @@ https_verification_success.i: https_verification_success.cpp.i
 
 # target to preprocess a source file
 https_verification_success.cpp.i:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_success.dir/build.make certify/tests/CMakeFiles/https_verification_success.dir/https_verification_success.cpp.i
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_success.dir/build.make certify/tests/CMakeFiles/https_verification_success.dir/https_verification_success.cpp.i
 .PHONY : https_verification_success.cpp.i
 
 https_verification_success.s: https_verification_success.cpp.s
@@ -234,7 +234,7 @@ https_verification_success.s: https_verification_success.cpp.s
 
 # target to generate assembly for a file
 https_verification_success.cpp.s:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_success.dir/build.make certify/tests/CMakeFiles/https_verification_success.dir/https_verification_success.cpp.s
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(MAKE) $(MAKESILENT) -f certify/tests/CMakeFiles/https_verification_success.dir/build.make certify/tests/CMakeFiles/https_verification_success.dir/https_verification_success.cpp.s
 .PHONY : https_verification_success.cpp.s
 
 # Help Target
@@ -268,6 +268,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/vishaal/Desktop/VSCode/transcribe-client-cpp && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/vishaal/Desktop/VSCode/bhasa-api-v2-cpp-client && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
