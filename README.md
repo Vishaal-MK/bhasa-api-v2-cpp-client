@@ -24,6 +24,8 @@ Example:
 
 ## Running
 
+Client works with both .wav and .flac files
+
 ``` bash
 > ./transcription_cpp_client <path/to/audio_file> <API-KEY>
 ```

@@ -1,3 +1,11 @@
 /.hg
 /.vscode
+CMakeFiles/*
 certify/CMakeFiles/*
+Makefile
+m.wav
+cmake_install.cmake
+CMakeCache.txt
+certify/certifyConfigVersion.cmake
+certify/CTestTestfile.cmake
+transcription_cpp_client
